@@ -1,0 +1,28 @@
+.h {
+  font-weight: 600;
+}
+
+.h1 {
+  @extend .h;
+  font-size: 36px;
+}
+.h2 {
+  @extend .h;
+  font-size: 30px;
+}
+.h3 {
+  @extend .h;
+  font-size: 24px;
+}
+.h4 {
+  @extend .h;
+  font-size: 18px;
+}
+.h5 {
+  @extend .h;
+  font-size: 14px;
+}
+.h6 {
+  @extend .h;
+  font-size: 12px;
+}

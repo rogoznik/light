@@ -1,0 +1,15 @@
+.zone__sub-zone {
+  height: 150px;
+  background: $blue;
+  border: 2px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  &:first-child {
+    margin-bottom: 4px;
+  }
+  &:hover {
+    box-shadow: 0 0 10px 3px $black;
+    cursor: pointer;
+  }
+}
+
